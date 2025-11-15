@@ -1,0 +1,25 @@
+# Build artifacts
+.react-router/
+build/
+dist/
+.vite/
+
+# Dependencies
+node_modules/
+
+# Generated files
+package-lock.json
+*.tsbuildinfo
+lib/types/fastapi/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Environment files
+.env*
+
+# OS files
+.DS_Store
+*.log

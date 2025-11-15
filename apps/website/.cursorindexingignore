@@ -1,0 +1,63 @@
+# Package managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+*.lock
+
+# Build outputs
+.react-router/
+build/
+dist/
+.vite/
+
+# Dependencies
+node_modules/
+.pnp/
+.yarn/
+
+# Environment and config
+.env*
+.git/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache/
+.nyc_output/
+.pytest_cache/
+.mypy_cache/
+.tox/
+__pycache__/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Media files (keep only the most common ones)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.mp4
+*.mp3
+*.pdf
+
+# Font files
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.eot
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
