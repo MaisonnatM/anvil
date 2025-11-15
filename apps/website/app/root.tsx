@@ -1,3 +1,5 @@
+import type { Route } from "./+types/root";
+
 import {
   isRouteErrorResponse,
   Links,
@@ -6,8 +8,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-
-import type { Route } from "./+types/root";
 import tailwindStyleSheetUrl from './styles/global.css?url';
 
 export const links: Route.LinksFunction = () => [
