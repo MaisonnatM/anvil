@@ -160,4 +160,28 @@
   body {
     @apply bg-background font-sans text-foreground antialiased;
   }
+
+  h1 {
+    @apply text-2xl font-semibold;
+  }
+
+  h2 {
+    @apply text-xl font-semibold;
+  }
+
+  p {
+    @apply text-lg;
+  }
+
+  ul {
+    @apply list-inside list-disc;
+  }
+
+  li {
+    @apply text-lg;
+  }
+
+  a {
+    @apply font-semibold text-blue-500 underline transition-colors hover:text-blue-600;
+  }
 }
