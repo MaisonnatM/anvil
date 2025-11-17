@@ -100,8 +100,8 @@ importers:
         specifier: ^0.4.24
         version: 0.4.24(eslint@9.39.1(jiti@2.6.1))
       eslint-plugin-tailwind-canonical-classes:
-        specifier: ^1.0.3
-        version: 1.0.3(eslint@9.39.1(jiti@2.6.1))
+        specifier: ^1.0.8
+        version: 1.0.8(eslint@9.39.1(jiti@2.6.1))
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -1697,8 +1697,8 @@ packages:
     peerDependencies:
       eslint: '>=8.44.0'
 
-  eslint-plugin-tailwind-canonical-classes@1.0.3:
-    resolution: {integrity: sha512-Ycj9Rer2qRU1xM6lPpB6Kb6QqO1Ly6f360jlkyAT7kQuDz9kn3XKV4d0VnoWuePAHUp/YBxCP+INLi4NT3qD/A==}
+  eslint-plugin-tailwind-canonical-classes@1.0.8:
+    resolution: {integrity: sha512-UG4vYzMRGaZPkwRULQl7ccMbWZ33RIEDCanv1FXDJ2cvdOXyeZ9H+QjgxXWcOyhFP6TZgKN/Ukjt7MLAOF3vtw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       eslint: '>=8.0.0'
@@ -5097,7 +5097,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-tailwind-canonical-classes@1.0.3(eslint@9.39.1(jiti@2.6.1)):
+  eslint-plugin-tailwind-canonical-classes@1.0.8(eslint@9.39.1(jiti@2.6.1)):
     dependencies:
       '@tailwindcss/node': 4.1.17
       eslint: 9.39.1(jiti@2.6.1)
